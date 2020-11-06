@@ -269,7 +269,7 @@ def main(zipp):
     for tup in zipp: 
         im1,im2 = tup
         c = int(input("Press 1 to process: "))
-        if c==1:
+        if c == 1:
             p1 = processing(im1)
             p2 = processing(im2)
         else: break
